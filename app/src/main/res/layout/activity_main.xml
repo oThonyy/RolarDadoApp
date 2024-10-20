@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btnRolarDado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbD4"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text="D4" />
+
+        <RadioButton
+            android:id="@+id/rbD6"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text="D6" />
+
+        <RadioButton
+            android:id="@+id/rbD8"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text="D8" />
+
+        <RadioButton
+            android:id="@+id/rbD10"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="D10" />
+
+        <RadioButton
+            android:id="@+id/rbD12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D12" />
+
+        <RadioButton
+            android:id="@+id/rbD20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D20" />
+
+        <RadioButton
+            android:id="@+id/rbD100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D100" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spQntDado"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="226dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRolarDado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text="Rolar Dado(s)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spQntDado" />
+
+    <TextView
+        android:id="@+id/tvRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRolarDado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
