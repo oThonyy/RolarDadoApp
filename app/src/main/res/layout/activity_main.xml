@@ -89,4 +89,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRolarDado" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anthony Siqueira de Oliveira"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1110482313032"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="67dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
